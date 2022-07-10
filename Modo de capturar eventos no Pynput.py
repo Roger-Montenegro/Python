@@ -7,3 +7,5 @@ while True:
         # print(event)
         if type(event) == events.Click and event.pressed:
             print(event.x, events.y, event.button)
+
+            
